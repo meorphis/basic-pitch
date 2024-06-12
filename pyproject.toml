@@ -23,7 +23,6 @@ dependencies = [
 	"numpy>=1.18",
 	"onnxruntime; platform_system == 'Windows' and python_version < '3.11'",
 	"pretty_midi>=0.2.9",
-	"resampy>=0.2.2,<0.4.3",
 	"scipy>=1.4.1",
 	"tflite-runtime; platform_system == 'Linux' and python_version < '3.11'",
 	"typing_extensions",
