@@ -19,7 +19,6 @@ classifiers = [
 ]
 dependencies = [
 	"coremltools; platform_system == 'Darwin'",
-	"librosa>=0.8.0",
 	"mir_eval>=0.6",
 	"numpy>=1.18",
 	"onnxruntime; platform_system == 'Windows' and python_version < '3.11'",
